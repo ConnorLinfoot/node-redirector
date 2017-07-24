@@ -2,7 +2,10 @@ const express = require('express');
 
 // Functions
 function show_help() {
-    console.log('//TODO');
+    console.log('Options:');
+    console.log('   -h      Shows this message');
+    console.log('   -u      The URL to redirect users too');
+    console.log('   -p      Ports to listen on');
     process.exit(0);
 }
 
