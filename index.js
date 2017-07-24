@@ -5,7 +5,7 @@ function show_help() {
     console.log('Options:');
     console.log('   -h      Shows this message');
     console.log('   -u      The URL to redirect users too');
-    console.log('   -p      Ports to listen on');
+    console.log('   -p      Ports to listen on, separated by commas');
     process.exit(0);
 }
 
