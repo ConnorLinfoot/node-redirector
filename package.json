@@ -2,7 +2,7 @@
   "name": "node-redirector",
   "author": "Connor Linfoot",
   "description": "Runs a simple web server to redirect all traffic on specific ports to a URL",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "dependencies": {
     "express": "^4.15.3"
   }
