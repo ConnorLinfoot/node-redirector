@@ -49,6 +49,7 @@ if( args.url == undefined || args.url == null ) {
 }
 
 function handle_redirect(req, res) {
+    console.log('');
     console.log('Redirecting ' + req.url + ' to ' + args.url + ' (IP: ' + req.connection.remoteAddress + ')');
     res.redirect(301, args.url);
 }
@@ -63,4 +64,3 @@ for( let port of ports ) {
         console.log('Redirector is successfully listening on port ' + port);
     });
 }
-console.log( '' );
